@@ -1,0 +1,57 @@
+[2019-08-29T18:56:50,067][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-08-29T18:56:50,166][INFO ][o.e.e.NodeEnvironment    ] [5z5c9Ts] using [1] data paths, mounts [[项目 (G:)]], net usable_space [495.8gb], net total_space [500.7gb], types [NTFS]
+[2019-08-29T18:56:50,166][INFO ][o.e.e.NodeEnvironment    ] [5z5c9Ts] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-08-29T18:56:50,187][INFO ][o.e.n.Node               ] [5z5c9Ts] node name derived from node ID [5z5c9TsyRg2zpox3LMeqXA]; set [node.name] to override
+[2019-08-29T18:56:50,188][INFO ][o.e.n.Node               ] [5z5c9Ts] version[6.4.0], pid[12892], build[default/zip/595516e/2018-08-17T23:18:47.308994Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-08-29T18:56:50,188][INFO ][o.e.n.Node               ] [5z5c9Ts] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\Gouzhong\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=D:\elasticsearch-6.4.0, -Des.path.conf=D:\elasticsearch-6.4.0\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2019-08-29T18:57:00,679][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [aggs-matrix-stats]
+[2019-08-29T18:57:00,679][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [analysis-common]
+[2019-08-29T18:57:00,680][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [ingest-common]
+[2019-08-29T18:57:00,680][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [lang-expression]
+[2019-08-29T18:57:00,680][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [lang-mustache]
+[2019-08-29T18:57:00,680][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [lang-painless]
+[2019-08-29T18:57:00,680][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [mapper-extras]
+[2019-08-29T18:57:00,680][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [parent-join]
+[2019-08-29T18:57:00,681][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [percolator]
+[2019-08-29T18:57:00,681][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [rank-eval]
+[2019-08-29T18:57:00,681][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [reindex]
+[2019-08-29T18:57:00,681][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [repository-url]
+[2019-08-29T18:57:00,681][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [transport-netty4]
+[2019-08-29T18:57:00,681][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [tribe]
+[2019-08-29T18:57:00,684][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-core]
+[2019-08-29T18:57:00,684][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-deprecation]
+[2019-08-29T18:57:00,685][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-graph]
+[2019-08-29T18:57:00,685][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-logstash]
+[2019-08-29T18:57:00,685][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-ml]
+[2019-08-29T18:57:00,686][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-monitoring]
+[2019-08-29T18:57:00,686][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-rollup]
+[2019-08-29T18:57:00,686][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-security]
+[2019-08-29T18:57:00,687][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-sql]
+[2019-08-29T18:57:00,687][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-upgrade]
+[2019-08-29T18:57:00,687][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded module [x-pack-watcher]
+[2019-08-29T18:57:00,688][INFO ][o.e.p.PluginsService     ] [5z5c9Ts] loaded plugin [analysis-ik]
+[2019-08-29T18:57:03,572][INFO ][o.e.x.s.a.s.FileRolesStore] [5z5c9Ts] parsed [0] roles from file [D:\elasticsearch-6.4.0\config\roles.yml]
+[2019-08-29T18:57:03,992][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/15816] [Main.cc@109] controller (64 bit): Version 6.4.0 (Build cf8246175efff5) Copyright (c) 2018 Elasticsearch BV
+[2019-08-29T18:57:04,233][DEBUG][o.e.a.ActionModule       ] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-08-29T18:57:04,370][INFO ][o.e.d.DiscoveryModule    ] [5z5c9Ts] using discovery type [zen]
+[2019-08-29T18:57:04,815][INFO ][o.e.n.Node               ] [5z5c9Ts] initialized
+[2019-08-29T18:57:04,816][INFO ][o.e.n.Node               ] [5z5c9Ts] starting ...
+[2019-08-29T18:57:05,403][INFO ][o.e.t.TransportService   ] [5z5c9Ts] publish_address {113.251.218.189:9300}, bound_addresses {[::]:9300}
+[2019-08-29T18:57:05,417][INFO ][o.e.b.BootstrapChecks    ] [5z5c9Ts] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2019-08-29T18:57:08,464][INFO ][o.e.c.s.MasterService    ] [5z5c9Ts] zen-disco-elected-as-master ([0] nodes joined)[, ], reason: new_master {5z5c9Ts}{5z5c9TsyRg2zpox3LMeqXA}{vsEHscBTRSOQ3a2IAOyTtQ}{113.251.218.189}{113.251.218.189:9300}{ml.machine_memory=34285174784, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-08-29T18:57:08,467][INFO ][o.e.c.s.ClusterApplierService] [5z5c9Ts] new_master {5z5c9Ts}{5z5c9TsyRg2zpox3LMeqXA}{vsEHscBTRSOQ3a2IAOyTtQ}{113.251.218.189}{113.251.218.189:9300}{ml.machine_memory=34285174784, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {5z5c9Ts}{5z5c9TsyRg2zpox3LMeqXA}{vsEHscBTRSOQ3a2IAOyTtQ}{113.251.218.189}{113.251.218.189:9300}{ml.machine_memory=34285174784, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)[, ]]])
+[2019-08-29T18:57:08,527][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-6.4.0\config\analysis-ik\IKAnalyzer.cfg.xml
+[2019-08-29T18:57:08,721][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [5z5c9Ts] publish_address {113.251.218.189:9200}, bound_addresses {[::]:9200}
+[2019-08-29T18:57:08,722][INFO ][o.e.n.Node               ] [5z5c9Ts] started
+[2019-08-29T18:57:08,975][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [5z5c9Ts] Failed to clear cache for realms [[]]
+[2019-08-29T18:57:09,005][INFO ][o.e.l.LicenseService     ] [5z5c9Ts] license [2f03f680-f4c4-4d71-8e6d-9599178aca8a] mode [basic] - valid
+[2019-08-29T18:57:09,011][INFO ][o.e.g.GatewayService     ] [5z5c9Ts] recovered [3] indices into cluster_state
+[2019-08-29T18:57:09,347][INFO ][o.e.c.r.a.AllocationService] [5z5c9Ts] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[.kibana][0], [heima][0], [goods][0]] ...]).
+[2019-08-29T19:01:56,475][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2019-08-29T19:01:56,475][INFO ][o.e.n.Node               ] [5z5c9Ts] stopping ...
+[2019-08-29T19:01:56,485][INFO ][o.e.x.w.WatcherService   ] [5z5c9Ts] stopping watch service, reason [shutdown initiated]
+[2019-08-29T19:01:56,611][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/15816] [Main.cc@148] Ml controller exiting
+[2019-08-29T19:01:56,642][INFO ][o.e.x.m.j.p.NativeController] Native controller process has stopped - no new native processes can be started
+[2019-08-29T19:01:56,659][INFO ][o.e.n.Node               ] [5z5c9Ts] stopped
+[2019-08-29T19:01:56,659][INFO ][o.e.n.Node               ] [5z5c9Ts] closing ...
+[2019-08-29T19:01:56,665][INFO ][o.e.n.Node               ] [5z5c9Ts] closed
