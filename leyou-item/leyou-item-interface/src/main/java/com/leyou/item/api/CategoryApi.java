@@ -17,10 +17,11 @@ public interface CategoryApi {
 
     /**
      * 根据id查询名称
+     *
      * @param ids
      * @return
      */
     @GetMapping
-    public List<String> queryNamesBuId(@RequestParam("ids") List<Long> ids);
+    List<String> queryNamesBuId(@RequestParam("ids") List<Long> ids);
 
 }
